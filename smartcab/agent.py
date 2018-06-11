@@ -40,8 +40,7 @@ class LearningAgent(Agent):
         # Update epsilon using a decay function of your choice
         # Update additional class parameters as needed
         # If 'testing' is True, set epsilon and alpha to 0
-        self.epsilon = self.epsilon - 0.05
-
+        
         if testing == True:
             self.epsilon = 0
             self.alpha = 0
